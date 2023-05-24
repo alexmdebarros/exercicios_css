@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header {
+    background-color: #45494f;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;        
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+    
+}
+.articles article {
+    width: 30%;
+}
+section {
+    padding: 16px 0;
+}
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article a {
+    background-color: rgb(22, 98, 26);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.articles article a:hover {
+    background-color: rgb(22, 98, 26, 0.8);
+    text-decoration: underline;
+    
+}
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.articles article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+}
+#tecnologia {
+    background-color: rgb(0, 8, 243, 0.3);
+}
+#tecnologia .articles article a {
+    background-color: rgba(2, 17, 184, 0.9);
+    color: black;
+    border-radius: 5px;
+    
+}
+#tecnologia article a:hover {
+    background-color: rgba(2, 17, 184, 0.5);
+    text-decoration: underline;
+    
+}
+#carros {
+    background-color: rgba(243, 0, 0, 0.436);
+}
+#carros .articles article a {
+    background-color: rgba(255, 0, 0, 0.9);
+    color: black;
+    border-radius: 5px;
+    
+    
+}
+#carros article a:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    text-decoration: underline;
+        
+}
+
+#esportes {
+    background-color: rgba(0, 255, 13, 0.1);
+}
+#esportes .articles article a {
+    background-color: rgba(17, 122, 23, 0.8);
+    color: black;
+    border-radius: 5px;
+}
+#esportes article a:hover {
+    background-color: rgba(98, 171, 102, 0.8);
+    text-decoration: underline;
+    
+}
+#economia {
+    background-color: rgb(255, 242, 170);
+}
+#economia .articles article a {
+    background-color: rgb(255, 174, 0);
+    color: black;
+    border-radius: 5px;
+}
+#economia article a:hover {
+    background-color: rgb(255, 174, 0, 0.5);
+    text-decoration: underline;
+}
+#botaoTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    border-radius: 50px;
+    border: none;
+    padding: 8px 10px;
+    background-color: #45494f6b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+  }
